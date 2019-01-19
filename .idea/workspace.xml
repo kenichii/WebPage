@@ -2,20 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="503be475-0cc0-4f3e-acf9-9fd06d989751" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/SCSS.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.sass-cache/a3e2fdbd7205927ddd4075e6b88af258b5e139b0/main.scssc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.sass-cache/a3e2fdbd7205927ddd4075e6b88af258b5e139b0/style.scssc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/.sass-cache/9fa233d28404a327b2f4fdf3cd8a90d05ef22e07/main.scssc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/main.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/main.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/main.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scss/base/_base.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -111,12 +98,12 @@
       <option name="presentableId" value="Default" />
       <updated>1547823149404</updated>
       <workItem from="1547823200404" duration="844000" />
-      <workItem from="1547867290008" duration="1579000" />
+      <workItem from="1547867290008" duration="2332000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2423000" />
+    <option name="totallyTimeSpent" value="3176000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1376" height="744" extended-state="6" />
@@ -133,7 +120,7 @@
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="9" visible="true" weight="0.30940172" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="9" visible="true" weight="0.36239317" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
