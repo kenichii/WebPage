@@ -11,7 +11,7 @@
     width: 28px;
     height: 3px;
     margin: 0 0 5px 0;//top right buttom
-    background: #fff3cd;
+    background: set-text-color($primary-color);
     @include easeOut;
   }
 
@@ -90,7 +90,7 @@
       width: 250px;
       height: 250px;
       background: url('../img/profile.jpg');
-      background-size: 250px 250px;
+      background-size: 250px 250px; /* this is the size of your background, fitting it on your branding*/
       //Circle border-radius
       border-radius: 50%;
       border: solid 3px $secondary-color;
@@ -116,7 +116,7 @@
       font-size: 30px;
       text-transform: uppercase;
       padding: 1rem 0;
-      color: #fff3cd;
+      color: set-text-color(#fff3cd);
       text-decoration: none;
       @include easeOut;
 

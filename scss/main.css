@@ -9,7 +9,7 @@
     width: 28px;
     height: 3px;
     margin: 0 0 5px 0;
-    background: #fff3cd;
+    background: #fff;
     transition: all 1.5s ease-out; }
   .menu-btn.close {
     transform: rotate(180deg); }
@@ -56,6 +56,7 @@
       height: 250px;
       background: url("../img/profile.jpg");
       background-size: 250px 250px;
+      /* this is the size of your background, fitting it on your branding*/
       border-radius: 50%;
       border: solid 3px #eece1a; }
   .menu .nav-item {
@@ -72,7 +73,7 @@
     font-size: 30px;
     text-transform: uppercase;
     padding: 1rem 0;
-    color: #fff3cd;
+    color: #000;
     text-decoration: none;
     transition: all 1.5s ease-out; }
     .menu .nav-link:hover {
@@ -90,6 +91,53 @@
 .nav-item:nth-child(4) {
   transition-delay: 0.4s; }
 
+@media screen and (max-width: 768px) {
+  main {
+    align-items: center;
+    text-align: center; }
+    main .lg-heading {
+      line-height: 1;
+      margin-bottom: 1rem; }
+
+  ul.menu-nav,
+  div.menu-branding {
+    float: none;
+    width: 100%;
+    min-height: 0; }
+    ul.menu-nav.show,
+    div.menu-branding.show {
+      transform: translate3d(0, 0, 0); }
+
+  .menu-nav {
+    height: 75vh;
+    /* Viewport Height of your background*/
+    transform: translate3d(-100%, 0, 0);
+    font-size: 24px; }
+
+  .menu-branding {
+    height: 25vh;
+    /* Viewport Height of your background*/
+    transform: translate3d(100%, 0, 0); }
+    .menu-branding .portrait {
+      background: url("../img/profile.jpg");
+      width: 150px;
+      height: 150px;
+      background-size: 150px 150px; } }
+@media screen and (max-width: 500px) {
+  main#home h1 {
+    font-size: 50px;
+    margin-top: 10vh;
+    align-items: center;
+    text-align: center; }
+
+  main#home h2 {
+    font-size: 15px;
+    align-items: center;
+    text-align: center; }
+
+  body .nav-item {
+    align-items: center;
+    text-align: center; } }
 * {
   box-sizing: border-box; }
 
